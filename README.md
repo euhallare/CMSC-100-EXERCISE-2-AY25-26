@@ -1,1 +1,6 @@
-# CMSC-100-EXERCISE-2-AY25-26
+EXERCISE 2
+
+Name: Eu Dasein Hallare
+Degree Program: BS Computer Science
+Live Website Link: 
+
