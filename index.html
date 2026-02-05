@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- == NAVIGATION ===-->
-     <nav>
-        <div class="logo">My<span>Portfolio</span></div>
-        <ul class="nav-links">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
 
-    <!-- ===== HERO / FEATURED PHOTO ===== -->
+  <!-- ===== NAVIGATION ===== -->
+  <nav>
+    <div class="nav-logo">My<span>Portfolio</span></div>
+    <ul class="nav-links">
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO / FEATURED PHOTO ===== -->
   <div class="hero" id="home">
     <div class="hero-content">
-      <img src="HALLARE - 2X2.jpg" alt="Eu Hallare" class="hero-photo-placeholder">
+      <img src="HALLARE-2X2.jpg" alt="Eu Hallare" class="hero-photo-placeholder">
       <h1><span class="hero-title-accent">Eu</span> Hallare</h1>
       <p>Computer Science &bull; University of the Philippines Los Baños</p>
     </div>
@@ -32,26 +34,26 @@
     <div class="projects-grid">
 
       <div class="project-card">
-        <div class="project-card-img">📁</div>
+        <img src="project1-screenshot.png" alt="Project One Screenshot" class="project-card-img">
         <div class="project-card-body">
-          <h3>Project One</h3>
-          <p>A brief description of what this project does and the technologies used.</p>
+          <h3>Pokemon Arcade Game</h3>
+          <p>A Pokemon Arcade Game built with Python and Pygame.</p>
         </div>
       </div>
 
       <div class="project-card">
-        <div class="project-card-img">📁</div>
+        <img src="project2-screenshot.png" alt="Project Two Screenshot" class="project-card-img">
         <div class="project-card-body">
-          <h3>Project Two</h3>
-          <p>A brief description of what this project does and the technologies used.</p>
+          <h3>City Pollution Reduction Solver</h3>
+          <p>A system that uses data analysis and optimization algorithms to reduce city pollution levels, built with R and RShiny.</p>
         </div>
       </div>
 
       <div class="project-card">
-        <div class="project-card-img">📁</div>
+        <img src="project3-screenshot.png" alt="Project Three Screenshot" class="project-card-img">
         <div class="project-card-body">
-          <h3>Project Three</h3>
-          <p>A brief description of what this project does and the technologies used.</p>
+          <h3>Academic Scheduling and Information Management</h3>
+          <p>A system that helps manage academic schedules and information for students and faculty, built with Java and JavaFx.</p>
         </div>
       </div>
     </div>
@@ -73,6 +75,11 @@
 
         <div class="skill-item">
           <div class="skill-label"><span>CSS</span><span>70%</span></div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:70%"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-label"><span>Javascript</span><span>70%</span></div>
           <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:70%"></div></div>
         </div>
 
@@ -122,11 +129,12 @@
         <h3>Eu Hallare</h3>
         <p>📍 Legazpi City, Albay, Philippines</p>
         <p>✉️ ebhallare@up.edu.ph</p>
-        <p>🌐 <a href="#">https://github.com/euhallare</a></p>
+        <p>🔗 <a href="https://github.com/euhallare" target="_blank">GitHub Profile</a></p>
+        <p>💼 <a href="https://linkedin.com/in/euhallare" target="_blank">LinkedIn Profile</a></p>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; 2025 Your Name. All rights reserved.</span>
+      <span>&copy; 2025 Eu Hallare. All rights reserved.</span>
       <a href="#home" class="back-to-top">↑ Back to Top</a>
     </div>
   </footer>
