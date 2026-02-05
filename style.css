@@ -285,6 +285,7 @@ section {
   font-size: 0.9rem;
   color: var(--clr-text-muted);
   line-height: 1.9;
+  text-align: justify
 }
 
 /* ===== FOOTER ===== */
