@@ -1,0 +1,37 @@
+:root{
+    --clr-bg: #0a0e37;    
+    --clr-surface: #151a2e;
+    --clr-surface-alt: #1e2438;
+    --clr-accent: #00d4ff;
+    --clr-text: #e8edf4;
+    --clr-text-muted: #9ca3af;
+    --clr-border: #2a3148;
+    --font-display: 'Georgia', serif;
+    --font-body: 'Segoe UI', sans-serif;
+    --font-body: 'Segoe UI', Tahoma, sans-serif;
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: var(--font-body);
+  background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+  background-attachment: fixed;
+  color: var(--clr-text);
+  line-height: 1.7;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--clr-accent);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+a:hover {
+  color: #33e0ff;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
