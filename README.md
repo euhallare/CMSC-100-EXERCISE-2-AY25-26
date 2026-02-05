@@ -4,7 +4,7 @@ Name: Eu Dasein Hallare
 
 Degree Program: BS Computer Science
 
-Live Website Link: 
+Live Website Link: https://euhallare.github.io/CMSC-100-EXERCISE-2-AY25-26/
 
 Steps on how to create a Githup page:
 
